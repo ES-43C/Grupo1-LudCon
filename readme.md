@@ -9,23 +9,28 @@ Link do Padlet:
 
 ***1.1.  Nome do Grupo***
 
-Indicar o nome e github dos integrantes do grupo
+LudCon
+- José Samuel;
+- Ana Carolina;
+- Alexandre de Lucas;
+- Douglas Nascimento; e
+- Matheus Oliveira.
 
 ***1.2.  Nome do Sistema***
 
-Indicar o nome do software proposto
+**LudCon**
 
 ***1.3.  Propósito do Sistema***
 
-Este documento apresenta os requisitos dos usuários a serem desenvolvidos pela *`nome da empresa`*, fornecendo aos desenvolvedores as informações necessárias para o projeto e implementação, assim como para a realização dos testes e homologação do sistema.
+Este documento apresenta os requisitos dos usuários a serem desenvolvidos pela *`Tiger's Digital`*, fornecendo aos desenvolvedores as informações necessárias para o projeto e implementação, assim como para a realização dos testes e homologação do sistema.'
 
-O objetivo do sistema `nome do sistema` é .... *<Descrever aqui o objetivo do sistema que será desenvolvido, principais características, benefícios, problemas que o sistema ajudará a resolver, o comportamento principal do sistema, etc.>*
+O objetivo do sistema `LudCon` é *através de um sistema de controle, permitir ao projeto de extensão Lúdico, o controle de jogos e sessões*
 
-***1.2.  Público Alvo***
+***1.4.  Público Alvo***
 
 Este documento se destina aos arquitetos de software, engenheiros de software, testadores, clientes... *<descrever aqui se existir mais interessados e que participarão do desenvolvimento do sistema>*
 
-***1.3. Descrição dos usuários***
+***1.5. Descrição dos usuários***
 
 *<Descrever quais os usuários finais do sistema (quem vai utilizar o sistema). Neste espaço vocês vão traçar um perfil de usuário, bem como as personas e análide de tarefas>*
 
