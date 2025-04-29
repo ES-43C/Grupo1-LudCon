@@ -28,11 +28,12 @@ O objetivo do sistema `LudCon` é *através de um sistema de controle, permitir 
 
 ***1.4.  Público Alvo***
 
-Este documento se destina aos arquitetos de software, engenheiros de software, testadores, clientes... *<descrever aqui se existir mais interessados e que participarão do desenvolvimento do sistema>*
+O público alvo do software são membros e/ou usuários do Lúdico portanto jovens, adultos, idosos, crianças podem estar inclusos em questão de faixa etária.
 
 ***1.5. Descrição dos usuários***
 
-*<Descrever quais os usuários finais do sistema (quem vai utilizar o sistema). Neste espaço vocês vão traçar um perfil de usuário, bem como as personas e análide de tarefas>*
+Utilizadores: São os usuários que usam o software tanto para vizualizar e reservar hórario para se entreter e após o uso podem avaliar o jogo.
+Administradores: São os usuários que configuram e organizam as funções que o software disponibiliza para os utilizadores.
 
 ***Personas:***
 
