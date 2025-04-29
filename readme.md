@@ -33,6 +33,7 @@ O público alvo do software são membros e/ou usuários do Lúdico portanto jove
 ***1.5. Descrição dos usuários***
 
 Utilizadores: São os usuários que usam o software tanto para vizualizar e reservar hórario para se entreter e após o uso podem avaliar o jogo.
+
 Administradores: São os usuários que configuram e organizam as funções que o software disponibiliza para os utilizadores.
 
 ***Personas:***
