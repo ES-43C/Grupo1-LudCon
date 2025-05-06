@@ -64,7 +64,7 @@ Administradores: São os usuários que configuram e organizam as funções que o
 
 ***2.1. Requisitos Funcionais***
 
-*<Link, imagem, arquivo com os requisitos funcionais.>*
+Link da imagem do arquivo->[Captura de tela 2025-05-05 223055](https://github.com/user-attachments/assets/fd38f1da-4492-45bf-94fd-31cea5a70d54)
 
 ***2.2. Requisitos Não Funcionais***
 
