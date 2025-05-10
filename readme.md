@@ -80,7 +80,25 @@ Link da imagem do arquivo->
 | RF10 | O sistema deve permitir ao usuário gerenciar ou  escolher seu nível de permissão com o software de acordo com seu tipo de usuário. | Alta | RF01 |
 
 ***2.2. Requisitos Não Funcionais***
-
+| Identificador | Descrição | Prioridade | Depende de |
+| --- | --- | --- | --- |
+| RNF01 | O usuario deve ser capaz de acessar a homepage de qualquer outra parte.
+| RNF02 | Deve ser intuitivo o suficiente para que qualquer estudante possa utilizá-lo sem necessidade de treinamento formal.
+| RNF03 | O sistema deve responder às requisições do usuário em até 2 segundos para ações básicas (como login, reserva de jogos, avaliação).
+| RNF04 | Deve suportar pelo menos 80 usuários simultâneos sem degradação significativa da performance.
+| RNF06 | O sistema deve estar disponível 98% do tempo durante os horários de funcionamento do projeto Lúdico.
+| RNF07 | Deve ser capaz de recuperar-se automaticamente de falhas simples sem perda de dados.
+| RNF09 | sistema deve ser acessível por navegadores modernos (Chrome, Firefox, Edge) e dispositivos móveis (responsivo).
+| RNF10 | Deve funcionar tanto em sistemas operacionais Windows quanto Android/iOS.
+| RNF11 | O sistema LudCon deve seguir as diretrizes de tecnologia da informação e extensão da universidade, respeitando normas de segurança, acessibilidade e uso de software institucional.
+| RNF12 | A administração do sistema será responsabilidade dos universitários envolvidos no projeto Lúdico, sob supervisão de um professor ou coordenador, garantindo que a manutenção e operação estejam alinhadas com os objetivos acadêmicos do projeto.
+| RNF13 | O sitema deve ser feito na linguagem java.
+| RNF14 | O sistema deve ser produzido utilizando a metódologia SCRUM.
+| RNF15 | O acesso ao sistema deve ser controlado por autenticação de usuário (login e senha).
+| RNF16 | Os dados pessoais dos usuários e administradores devem ser armazenados de forma segura, respeitando a LGPD.
+| RNF17 | O sistema deve registrar logs de acesso e ações administrativas para auditoria.
+| RNF18 | O sistema deve ser modular, facilitando alterações e atualizações futuras.
+| RNF19 | O código deve seguir boas práticas de desenvolvimento, com documentação básica e padronização.
 *<Link, imagem, arquivo com os requisitos não funcionais.>*
 
 ***2.3. Perguntas***
