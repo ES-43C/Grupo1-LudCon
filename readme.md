@@ -67,9 +67,9 @@ Administradores: São os usuários que configuram e organizam as funções que o
 Link da imagem do arquivo->
 
 | Identificador | Descrição | Prioridade | Depende de |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| --- | --- | --- | --- |
+| git status | List all new or modified files | asdasdsadsa | asdsdasdsadsa |
+| git diff | Show file differences that haven't been staged | asdadsadasdsa |
 
 ***2.2. Requisitos Não Funcionais***
 
