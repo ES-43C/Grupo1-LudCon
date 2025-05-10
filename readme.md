@@ -65,19 +65,19 @@ Administradores: São os usuários que configuram e organizam as funções que o
 ***2.1. Requisitos Funcionais***
 
 Link da imagem do arquivo->
-
+--Falta colocar os RNF (Requisitos nao funcionais em "Depende de")--
 | Identificador | Descrição | Prioridade | Depende de |
 | --- | --- | --- | --- |
-| RF01 | O software deve permitir que o usuário faça cadastro e login no sistema. | Alta | asdsdasdsadsa 
-| RF02 | O sistema deve permitir o cadastro de jogos. | Alta |
-| RF03 | O Software deve permitir ao usuário uma tela de visualização de jogos. | Média |
-| RF04 | O software deve permitir ao usuário fazer uma reserva do jogo que deseja utilizar. | Alta |
-| RF05 | O sistema deve permitir ao usuário editar ou cancelar suas reservas de jogos. | Alta |
-| RF06 | O sistema deve permitir ao usuário avaliar os jogos utilizados. | Média |
-| RF07 | O sistema deve permitir ao usuário não conflitar com outros horários marcados. | Alta |
-| RF08 | O sistema deve permitir ao usuário buscar jogos por meio de filtros (nomes, códigos, id). | Média |
-| RF09 | O sistema deve permitir ao usuário visualizar suas preferências com base no histórico de jogos utilizados. | Média |
-| RF10 | O sistema deve permitir ao usuário gerenciar ou  escolher seu nível de permissão com o software de acordo com seu tipo de usuário. | Alta |
+| RF01 | O software deve permitir que o usuário faça cadastro e login no sistema. | Alta |  
+| RF02 | O sistema deve permitir o cadastro de jogos. | Alta | RF01, RF10 |
+| RF03 | O Software deve permitir ao usuário uma tela de visualização de jogos. | Média | RF01, RF10, RF02 |
+| RF04 | O software deve permitir ao usuário fazer uma reserva do jogo que deseja utilizar. | Alta | RF01, RF10, RF02, RF03 |
+| RF05 | O sistema deve permitir ao usuário editar ou cancelar suas reservas de jogos. | Alta | RF01, RF10, RF02, RF03, RF04 |
+| RF06 | O sistema deve permitir ao usuário avaliar os jogos utilizados. | Média | RF01, RF10, RF02, RF03, RF04 |
+| RF07 | O sistema deve permitir ao usuário não conflitar com outros horários marcados. | Alta | RF01, RF10, RF02, RF03, RF04, RF05 |
+| RF08 | O sistema deve permitir ao usuário buscar jogos por meio de filtros (nomes, códigos, id). | Média | RF01, RF10, RF02, RF03, RF04, RF06 |
+| RF09 | O sistema deve permitir ao usuário visualizar suas preferências com base no histórico de jogos utilizados. | Média | RF01, RF10, RF02, RF03, RF04, RF05, RF06, RF07 |
+| RF10 | O sistema deve permitir ao usuário gerenciar ou  escolher seu nível de permissão com o software de acordo com seu tipo de usuário. | Alta | RF01 |
 
 ***2.2. Requisitos Não Funcionais***
 
