@@ -68,8 +68,16 @@ Link da imagem do arquivo->
 
 | Identificador | Descrição | Prioridade | Depende de |
 | --- | --- | --- | --- |
-| git status | List all new or modified files | asdasdsadsa | asdsdasdsadsa |
-| git diff | Show file differences that haven't been staged | asdadsadasdsa |
+| RF01 | O software deve permitir que o usuário faça cadastro e login no sistema. | asdasdsadsa | asdsdasdsadsa 
+| RF02 | O sistema deve permitir o cadastro de jogos. | asdadsadasdsa |
+| RF03 | O Software deve permitir ao usuário uma tela de visualização de jogos. | asdadsadasdsa |
+| RF04 | O software deve permitir ao usuário fazer uma reserva do jogo que deseja utilizar. | asdadsadasdsa |
+| RF05 | O sistema deve permitir ao usuário editar ou cancelar suas reservas de jogos. | asdadsadasdsa |
+| RF06 | O sistema deve permitir ao usuário avaliar os jogos utilizados. | asdadsadasdsa |
+| RF07 | O sistema deve permitir ao usuário não conflitar com outros horários marcados. | asdadsadasdsa |
+| RF08 | O sistema deve permitir ao usuário buscar jogos por meio de filtros (nomes, códigos, id). | asdadsadasdsa |
+| RF09 | O sistema deve permitir ao usuário visualizar suas preferências com base no histórico de jogos utilizados. | asdadsadasdsa |
+| RF10 | O sistema deve permitir ao usuário gerenciar ou  escolher seu nível de permissão com o software. | asdadsadasdsa |
 
 ***2.2. Requisitos Não Funcionais***
 
