@@ -64,8 +64,6 @@ Administradores: São os usuários que configuram e organizam as funções que o
 
 ***2.1. Requisitos Funcionais***
 
-Link da imagem do arquivo->
---Falta colocar os RNF (Requisitos nao funcionais em "Depende de")--
 | Identificador | Descrição | Prioridade | Depende de |
 | --- | --- | --- | --- |
 | RF01 | O software deve permitir que o usuário faça cadastro e login no sistema. | Alta |  
