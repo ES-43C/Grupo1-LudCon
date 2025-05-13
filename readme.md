@@ -102,39 +102,40 @@ Link da imagem do arquivo->
 *<Link, imagem, arquivo com os requisitos não funcionais.>*
 
 ***2.3. Perguntas***
-1-Como é feito hoje o controle dos jogos disponíveis?
 
-2-Como vocês organizam as reservas de jogos ou horários?
+-Como é feito hoje o controle dos jogos disponíveis?
 
-3-Existe alguma planilha ou sistema que vocês usam atualmente?
+-Como vocês organizam as reservas de jogos ou horários?
 
-4-Quais são os maiores problemas na organização dos encontros?
+-Existe alguma planilha ou sistema que vocês usam atualmente?
 
-5-Quem pode autorizar ou bloquear o uso de jogos?
+-Quais são os maiores problemas na organização dos encontros?
 
-6-Quem são os tipos de usuários que usam o sistema? (monitor, aluno, prof...?)
+-Quem pode autorizar ou bloquear o uso de jogos?
 
-7-Quais permissões diferentes cada tipo de usuário deve ter?
+-Quem são os tipos de usuários que usam o sistema? (monitor, aluno, prof...?)
 
-8-Como vocês controlam quem participou de cada evento?
+-Quais permissões diferentes cada tipo de usuário deve ter?
 
-9-Como vocês decidem quais jogos estarão disponíveis em cada encontro?
+-Como vocês controlam quem participou de cada evento?
 
-10-Já aconteceu de  grupos quererem o mesmo jogo ao mesmo tempo e não ter?
+-Como vocês decidem quais jogos estarão disponíveis em cada encontro?
 
-11-É importante registrar a frequência de uso de cada jogo?
+-Já aconteceu de  grupos quererem o mesmo jogo ao mesmo tempo e não ter?
 
-12-Vocês acham importante que o sistema permita agendar jogos com antecedência?
+-É importante registrar a frequência de uso de cada jogo?
 
-13-Vocês preferem horários fixos ou flexíveis para reservas?
+-Vocês acham importante que o sistema permita agendar jogos com antecedência?
 
-14-Quais dados vocês gostariam de extrair do sistema? (frequência, avaliações, histórico)
+-Vocês preferem horários fixos ou flexíveis para reservas?
 
-15-Alguma funcionalidade que facilitaria muito o trabalho de vocês?
+-Quais dados vocês gostariam de extrair do sistema? (frequência, avaliações, histórico)
 
-16-Existe alguma limitação técnica ou regra da faculdade que precisamos seguir?
+-Alguma funcionalidade que facilitaria muito o trabalho de vocês?
 
-17-O que o sistema não pode deixar de ter?
+-Existe alguma limitação técnica ou regra da faculdade que precisamos seguir?
+
+-O que o sistema não pode deixar de ter?
 
 *<Arquivo com as perguntas realizadas na entrevista .>*
 
