@@ -11,7 +11,7 @@ Link do Padlet: https://padlet.com/josesamuel4/requisitos-ak7sijmoxmn7q0cj
 
 LudCon
 - José Samuel;
-- Ana Carolina;
+- Ana Moreira;
 - Alexandre de Lucas;
 - Douglas Nascimento; e
 - Matheus Oliveira.
