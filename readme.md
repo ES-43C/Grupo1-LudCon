@@ -38,6 +38,7 @@ Administradores: São os usuários que configuram e organizam as funções que o
 
 ***Personas:***
 
+[Acesse aqui - Personas de Usuário](Docs/PersonasdeUsuario.pdf)
 
 #### Situação Atual – Antes da Solução
 
