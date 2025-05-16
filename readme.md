@@ -38,27 +38,68 @@ Administradores: São os usuários que configuram e organizam as funções que o
 
 ***Personas:***
 
-*<Imagem, arquivo (PDF), link com as Personas.>*
 
-***Análise da situação atual: antes da introdução de sua solução***
+#### Situação Atual – Antes da Solução
 
-*`1. O que as pessoas fazem?`*
-*`2. Quais os artefatos envolvidos?`*
-*`3. O que elas precisam saber?`*
+**O que as pessoas fazem?**  
+- Júlia (monitora) organiza manualmente a lista de jogos disponíveis e os horários das sessões, geralmente em planilhas e mensagens no WhatsApp.  
+- Pedro (usuário) entra em contato por mensagens para perguntar sobre a disponibilidade e tenta reservar verbalmente ou via grupo de WhatsApp.
 
-***Análise das tarefas depois: como serão executadas as suas tarefas com sua solução:***
+**Quais os artefatos envolvidos?**  
+- Planilhas em Excel/Google Sheets  
+- Grupos de WhatsApp  
+- Impressões de listas de jogos  
+- Anotações manuais em papel  
 
-*`1. O que as pessoas fazem?`*
-*`2. Quais os artefatos envolvidos?`*
-*`3. O que elas precisam saber?`*
+**O que elas precisam saber?**  
+- Quais jogos estão disponíveis e em quais horários  
+- Quem já reservou cada jogo  
+- Se há conflitos de horário  
+- Como registrar avaliações ou frequência dos participantes
 
-***Cenário: Antes***
+---
 
-*<Preencher com o cenário idealizado antes da aplicação do seu sistema.>*
+#### Situação com a Solução – Depois da Implementação do LudCon
 
-***Cenário: Depois***
+**O que as pessoas fazem?**  
+- Júlia acessa o sistema LudCon via navegador, faz login como administradora e cadastra ou atualiza os jogos disponíveis. Ela gerencia permissões e visualiza reservas em tempo real.  
+- Pedro acessa o sistema pelo celular, consulta os jogos disponíveis, faz uma reserva e recebe uma confirmação. Após jogar, ele avalia o jogo diretamente pela plataforma.
 
-*<Preencher com o cenário idealizado depois da aplicação do seu sistema.>*
+**Quais os artefatos envolvidos?**  
+- Plataforma web responsiva (LudCon)  
+- Banco de dados centralizado com registros de usuários, jogos, reservas e avaliações  
+- Sistema de permissões por perfil  
+
+**O que elas precisam saber?**  
+- Como navegar pelo sistema  
+- Como filtrar, cadastrar e editar jogos  
+- Como realizar uma reserva e verificar status  
+- Como acessar e interpretar relatórios (no caso da Júlia)
+
+---
+
+#### Cenário: Antes
+
+Júlia é uma estudante engajada no projeto de extensão Lúdico e responsável por ajudar na organização das sessões de jogos. Ela utiliza planilhas no Google Drive e grupos de WhatsApp para controlar os jogos disponíveis e os horários de uso. Toda semana, Júlia precisa atualizar manualmente a planilha e responder mensagens dos colegas interessados em participar dos encontros.
+
+Pedro, um estudante do 3º período de Engenharia da Computação, quer participar das atividades e pergunta no grupo se o jogo *Codenames* estará disponível na quinta-feira à tarde. Júlia confere a planilha, mas como não está com o notebook no momento, responde de forma genérica. Pedro então supõe que o jogo estará disponível e comparece no horário desejado, mas descobre que outro grupo já havia reservado informalmente o mesmo jogo.
+
+A situação gera frustração. Júlia precisa reorganizar os horários em tempo real e lidar com vários pedidos simultâneos. Pedro se sente desmotivado por não conseguir jogar. Ao final do dia, Júlia atualiza a planilha com o que aconteceu, mas sem registros claros das reservas e sem avaliações dos jogos.
+
+---
+
+#### Cenário: Depois
+
+Júlia é uma monitora ativa do projeto Lúdico e agora utiliza o sistema LudCon para organizar os jogos e horários das sessões. Ao acessar a plataforma pelo navegador, ela realiza login como administradora, cadastra os novos jogos recebidos e atualiza os horários disponíveis na agenda integrada.
+
+Pedro acessa o sistema LudCon pelo celular e, ao navegar pela interface intuitiva, encontra uma lista com todos os jogos cadastrados. Ele utiliza o filtro por nome e localiza o *Codenames*. Ao verificar a disponibilidade, Pedro vê que o horário de quinta-feira às 16h está livre e faz sua reserva com um clique. Ele recebe uma notificação de confirmação imediatamente.
+
+Durante o encontro, Pedro utiliza o jogo e, ao final, avalia sua experiência diretamente pelo sistema. Júlia acompanha todas as reservas e avaliações em tempo real pela interface administrativa. Ao final da semana, ela exporta um relatório com o histórico de uso e as avaliações dos jogos, o que facilita o planejamento de futuras sessões.
+
+Com o uso do LudCon, os encontros se tornam mais organizados, os conflitos de horários são evitados automaticamente e tanto os participantes quanto os monitores têm mais controle e confiança sobre o funcionamento do projeto.
+
+---
+
 
 ## 2. Documentos gerais no repositório
 
@@ -96,8 +137,7 @@ Administradores: São os usuários que configuram e organizam as funções que o
 | RNF16 | Os dados pessoais dos usuários e administradores devem ser armazenados de forma segura, respeitando a LGPD. | Alta | RF01, RF10, RF05 |
 | RNF17 | O sistema deve registrar logs de acesso e ações administrativas para auditoria. | Alta | RF01, RF10 |
 | RNF18 | O sistema deve ser modular, facilitando alterações e atualizações futuras.  | Média | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
-| RNF19 | O código deve seguir boas práticas de desenvolvimento, com documentação básica e padronização. | Alta | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
-*<Link, imagem, arquivo com os requisitos não funcionais.>*
+| RNF19 | O código deve seguir boas práticas de desenvolvimento, com documentação básica e padronização. | Alta | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 
 
 ***2.3. Perguntas***
 
