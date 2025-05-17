@@ -140,6 +140,7 @@ Com o uso do LudCon, os encontros se tornam mais organizados, os conflitos de ho
 | RNF18 | O sistema deve ser modular, facilitando alterações e atualizações futuras.  | S | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
 | RNF19 | O código deve seguir boas práticas de desenvolvimento, com documentação básica e padronização. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 
 | RNF20 | O Sistema precisa dar autonomia para os administradores cancelar as reservas. | W | RNF13
+
 ***2.3. Perguntas***
 
 -Como é feito hoje o controle dos jogos disponíveis?
