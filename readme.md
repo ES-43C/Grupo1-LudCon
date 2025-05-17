@@ -108,37 +108,37 @@ Com o uso do LudCon, os encontros se tornam mais organizados, os conflitos de ho
 
 | Identificador | Descrição | Prioridade | Depende de |
 | --- | --- | --- | --- |
-| RF01 | O software deve permitir que o usuário faça cadastro e login no sistema. | Alta |  
-| RF02 | O sistema deve permitir o cadastro de jogos. | Alta | RF01, RF10 |
-| RF03 | O Software deve permitir ao usuário uma tela de visualização de jogos. | Média | RF01, RF10, RF02 |
-| RF04 | O software deve permitir ao usuário fazer uma reserva do jogo que deseja utilizar. | Alta | RF01, RF10, RF02, RF03 |
-| RF05 | O sistema deve permitir ao usuário editar ou cancelar suas reservas de jogos. | Alta | RF01, RF10, RF02, RF03, RF04 |
-| RF06 | O sistema deve permitir ao usuário avaliar os jogos utilizados. | Média | RF01, RF10, RF02, RF03, RF04 |
-| RF07 | O sistema deve permitir ao usuário não conflitar com outros horários marcados. | Alta | RF01, RF10, RF02, RF03, RF04, RF05 |
-| RF08 | O sistema deve permitir ao usuário buscar jogos por meio de filtros (nomes, códigos, id). | Média | RF01, RF10, RF02, RF03, RF04, RF06 |
-| RF09 | O sistema deve permitir ao usuário visualizar suas preferências com base no histórico de jogos utilizados. | Média | RF01, RF10, RF02, RF03, RF04, RF05, RF06, RF07 |
-| RF10 | O sistema deve permitir ao usuário gerenciar ou  escolher seu nível de permissão com o software de acordo com seu tipo de usuário. | Alta | RF01 |
+| RF01 | O software deve permitir que o usuário faça cadastro e login no sistema. | M |  
+| RF02 | O sistema deve permitir o cadastro de jogos. | M | RF01, RF10 |
+| RF03 | O Software deve permitir ao usuário uma tela de visualização de jogos. | C | RF01, RF10, RF02 |
+| RF04 | O software deve permitir ao usuário fazer uma reserva do jogo que deseja utilizar. | M | RF01, RF10, RF02, RF03 |
+| RF05 | O sistema deve permitir ao usuário editar ou cancelar suas reservas de jogos. | M | RF01, RF10, RF02, RF03, RF04 |
+| RF06 | O sistema deve permitir ao usuário avaliar os jogos utilizados. | S | RF01, RF10, RF02, RF03, RF04 |
+| RF07 | O sistema deve permitir ao usuário não conflitar com outros horários marcados. | M | RF01, RF10, RF02, RF03, RF04, RF05 |
+| RF08 | O sistema deve permitir ao usuário buscar jogos por meio de filtros (nomes, códigos, id). | S | RF01, RF10, RF02, RF03, RF04, RF06 |
+| RF09 | O sistema deve permitir ao usuário visualizar suas preferências com base no histórico de jogos utilizados. | S | RF01, RF10, RF02, RF03, RF04, RF05, RF06, RF07 |
+| RF10 | O sistema deve permitir ao usuário gerenciar ou  escolher seu nível de permissão com o software de acordo com seu tipo de usuário. | M | RF01 |
 
 ***2.2. Requisitos Não Funcionais***
 | Identificador | Descrição | Prioridade | Depende de |
 | --- | --- | --- | --- |
-| RNF01 | O usuario deve ser capaz de acessar a homepage de qualquer outra parte. | Média | RF01 |
-| RNF02 | Deve ser intuitivo o suficiente para que qualquer estudante possa utilizá-lo sem necessidade de treinamento formal. | Alta | RF01, RF02, RF03, RF04 |
-| RNF03 | O sistema deve responder às requisições do usuário em até 2 segundos para ações básicas (como login, reserva de jogos, avaliação). | Alta | RF01, RF04, RF06 |
-| RNF04 | Deve suportar pelo menos 80 usuários simultâneos sem degradação significativa da performance. | Alta | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
-| RNF06 | O sistema deve estar disponível 98% do tempo durante os horários de funcionamento do projeto Lúdico. | Alta | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
-| RNF07 | Deve ser capaz de recuperar-se automaticamente de falhas simples sem perda de dados. | Alta | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
-| RNF09 | sistema deve ser acessível por navegadores modernos (Chrome, Firefox, Edge) e dispositivos móveis (responsivo). | Alta | RF01 |
-| RNF10 | Deve funcionar tanto em sistemas operacionais Windows quanto Android/iOS. | Alta | RF01 |
-| RNF11 | O sistema LudCon deve seguir as diretrizes de tecnologia da informação e extensão da universidade, respeitando normas de segurança, acessibilidade e uso de software institucional.  | Alta | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
-| RNF12 | A administração do sistema será responsabilidade dos universitários envolvidos no projeto Lúdico, sob supervisão de um professor ou coordenador, garantindo que a manutenção e operação estejam alinhadas com os objetivos acadêmicos do projeto. | Média | RF10 |
-| RNF13 | O sitema deve ser feito na linguagem java. | Alta | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
-| RNF14 | O sistema deve ser produzido utilizando a metódologia SCRUM. | Alta | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
-| RNF15 | O acesso ao sistema deve ser controlado por autenticação de usuário (login e senha). | Alta | RF01 |
-| RNF16 | Os dados pessoais dos usuários e administradores devem ser armazenados de forma segura, respeitando a LGPD. | Alta | RF01, RF10, RF05 |
-| RNF17 | O sistema deve registrar logs de acesso e ações administrativas para auditoria. | Alta | RF01, RF10 |
-| RNF18 | O sistema deve ser modular, facilitando alterações e atualizações futuras.  | Média | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
-| RNF19 | O código deve seguir boas práticas de desenvolvimento, com documentação básica e padronização. | Alta | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 
+| RNF01 | O usuario deve ser capaz de acessar a homepage de qualquer outra parte. | S | RF01 |
+| RNF02 | Deve ser intuitivo o suficiente para que qualquer estudante possa utilizá-lo sem necessidade de treinamento formal. | M | RF01, RF02, RF03, RF04 |
+| RNF03 | O sistema deve responder às requisições do usuário em até 2 segundos para ações básicas (como login, reserva de jogos, avaliação). | M | RF01, RF04, RF06 |
+| RNF04 | Deve suportar pelo menos 80 usuários simultâneos sem degradação significativa da performance. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
+| RNF06 | O sistema deve estar disponível 98% do tempo durante os horários de funcionamento do projeto Lúdico. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
+| RNF07 | Deve ser capaz de recuperar-se automaticamente de falhas simples sem perda de dados. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
+| RNF09 | sistema deve ser acessível por navegadores modernos (Chrome, Firefox, Edge) e dispositivos móveis (responsivo). | M | RF01 |
+| RNF10 | Deve funcionar tanto em sistemas operacionais Windows quanto Android/iOS. | M | RF01 |
+| RNF11 | O sistema LudCon deve seguir as diretrizes de tecnologia da informação e extensão da universidade, respeitando normas de segurança, acessibilidade e uso de software institucional.  | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
+| RNF12 | A administração do sistema será responsabilidade dos universitários envolvidos no projeto Lúdico, sob supervisão de um professor ou coordenador, garantindo que a manutenção e operação estejam alinhadas com os objetivos acadêmicos do projeto. | C | RF10 |
+| RNF13 | O sitema deve ser feito na linguagem java. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
+| RNF14 | O sistema deve ser produzido utilizando a metódologia SCRUM. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
+| RNF15 | O acesso ao sistema deve ser controlado por autenticação de usuário (login e senha). | M | RF01 |
+| RNF16 | Os dados pessoais dos usuários e administradores devem ser armazenados de forma segura, respeitando a LGPD. | M | RF01, RF10, RF05 |
+| RNF17 | O sistema deve registrar logs de acesso e ações administrativas para auditoria. | M | RF01, RF10 |
+| RNF18 | O sistema deve ser modular, facilitando alterações e atualizações futuras.  | S | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
+| RNF19 | O código deve seguir boas práticas de desenvolvimento, com documentação básica e padronização. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 
 
 ***2.3. Perguntas***
 
