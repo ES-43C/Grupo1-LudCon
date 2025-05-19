@@ -143,41 +143,39 @@ Com o uso do LudCon, os encontros se tornam mais organizados, os conflitos de ho
 
 ***2.3. Perguntas***
 
--Como é feito hoje o controle dos jogos disponíveis?
+**Sobre o funcionamento atual**
+- Como vocês controlam os jogos disponíveis e os horários de uso?
+- Há alguma ferramenta ou método que utilizam para esse controle?
+- Quem é responsável por manter essas informações atualizadas?
 
--Como vocês organizam as reservas de jogos ou horários?
+**Dificuldades enfrentadas**
+- Quais são os principais problemas na organização dos encontros?
+- Já houve conflitos de horário ou uso de jogos? Como foram resolvidos?
+- É difícil saber quem participou das sessões?
 
--Existe alguma planilha ou sistema que vocês usam atualmente?
+**Perfis e permissões**
+- Quais tipos de usuários participam do projeto?
+- Que ações diferentes cada perfil deveria ter no sistema?
+- Quem pode autorizar, cancelar ou bloquear reservas?
 
--Quais são os maiores problemas na organização dos encontros?
+**Reservas e agendamentos**
+- É importante poder agendar jogos com antecedência?
+- Preferem horários fixos ou flexíveis para as reservas?
+- Os usuários devem poder editar suas próprias reservas?
 
--Quem pode autorizar ou bloquear o uso de jogos?
+**Informações e relatórios**
+- Que dados vocês gostariam de acompanhar no sistema?
+- Devem ser registradas a frequência de uso e participação?
+- Relatórios são úteis para o planejamento? Quais?
 
--Quem são os tipos de usuários que usam o sistema? (monitor, aluno, prof...?)
+**Funcionalidades desejadas**
+- Que funcionalidades seriam mais úteis para o sistema?
+- O que não pode faltar de jeito nenhum?
+- Avaliações de jogos pelos usuários seriam úteis?
 
--Quais permissões diferentes cada tipo de usuário deve ter?
-
--Como vocês controlam quem participou de cada evento?
-
--Como vocês decidem quais jogos estarão disponíveis em cada encontro?
-
--Já aconteceu de  grupos quererem o mesmo jogo ao mesmo tempo e não ter?
-
--É importante registrar a frequência de uso de cada jogo?
-
--Vocês acham importante que o sistema permita agendar jogos com antecedência?
-
--Vocês preferem horários fixos ou flexíveis para reservas?
-
--Quais dados vocês gostariam de extrair do sistema? (frequência, avaliações, histórico)
-
--Alguma funcionalidade que facilitaria muito o trabalho de vocês?
-
--Existe alguma limitação técnica ou regra da faculdade que precisamos seguir?
-
--O que o sistema não pode deixar de ter?
-
-*<Arquivo com as perguntas realizadas na entrevista .>*
+**Considerações finais**
+- Existe alguma regra ou limitação que o sistema precisa seguir?
+- Algo mais que gostariam de incluir?
 
 ***2.4. Entrevista***
 
