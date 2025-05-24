@@ -117,7 +117,7 @@ Com o uso do LudCon, os encontros se tornam mais organizados, os conflitos de ho
 | RF07 | O sistema deve permitir ao usuário não conflitar com outros horários marcados. | M | RF01, RF10, RF02, RF03, RF04, RF05 |
 | RF08 | O sistema deve permitir ao usuário buscar jogos por meio de filtros (nomes, códigos, id). | S | RF01, RF10, RF02, RF03, RF04, RF06 |
 | RF09 | O sistema deve permitir ao usuário visualizar suas preferências com base no histórico de jogos utilizados. | S | RF01, RF10, RF02, RF03, RF04, RF05, RF06, RF07 |
-| RF10 | O sistema deve permitir ao usuário gerenciar ou  escolher seu nível de permissão com o software de acordo com seu tipo de usuário. | M | RF01 |
+| RF10 | O sistema deve permitir a categorização de 2 opções, usuário (Para quem deseja utilizar o software para reservar um jogo), e usuário administrador (Para os membros do lúdico poderem manipular o que quiserem). | M | RF01 |
 
 ***2.2. Requisitos Não Funcionais***
 | Identificador | Descrição | Prioridade | Depende de |
@@ -127,7 +127,7 @@ Com o uso do LudCon, os encontros se tornam mais organizados, os conflitos de ho
 | RNF03 | O sistema deve responder às requisições do usuário em até 2 segundos para ações básicas (como login, reserva de jogos, avaliação). | M | RF01, RF04, RF06 |
 | RNF04 | Deve suportar pelo menos 80 usuários simultâneos sem degradação significativa da performance. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
 | RNF06 | O sistema deve estar disponível 98% do tempo durante os horários de funcionamento do projeto Lúdico. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
-| RNF07 | Deve ser capaz de recuperar-se automaticamente de falhas simples sem perda de dados. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
+| RNF07 | O sistema deve ser capaz de realizar backup de dados a cada 12 horas para evitar perda de dados. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
 | RNF09 | sistema deve ser acessível por navegadores modernos (Chrome, Firefox, Edge) e dispositivos móveis (responsivo). | M | RF01 |
 | RNF10 | Deve funcionar tanto em sistemas operacionais Windows quanto Android/iOS. | M | RF01 |
 | RNF11 | O sistema LudCon deve seguir as diretrizes de tecnologia da informação e extensão da universidade, respeitando normas de segurança, acessibilidade e uso de software institucional.  | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
