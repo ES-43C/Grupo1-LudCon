@@ -183,7 +183,77 @@ Com o uso do LudCon, os encontros se tornam mais organizados, os conflitos de ho
 
 ***2.5. Histórias do Usuário***
 
-*<Imagem, arquivo (PDF), link com as Histórias de Usuário.>*
+*1-* Como um usuário,
+Quero me cadastrar e fazer login no sistema,
+Para que eu possa acessar as funcionalidades de reserva de jogos.
+
+*2-* Como um administrador,
+Quero ter acesso privilegiado no sistema,
+Para que eu possa gerenciar jogos e reservas conforme necessário.
+
+*3-* Como um administrador,
+Quero cadastrar novos jogos no sistema,
+Para que eles fiquem disponíveis para os usuários reservarem.
+
+*4-* Como um usuário,
+Quero visualizar uma lista de jogos,
+Para que eu possa escolher qual desejo reservar.
+
+*5-* Como um usuário,
+Quero reservar o jogo que desejo,
+Para que eu possa utilizá-lo em um horário específico.
+
+*6-* Como um usuário,
+Quero editar ou cancelar minhas reservas,
+Para que eu possa ajustar minha agenda conforme necessário.
+
+*7-* Como um usuário,
+Quero ser alertado se houver conflito de horário ao tentar reservar,
+Para que eu não tenha problemas com reservas duplicadas.
+
+*8-* Como um usuário,
+Quero avaliar os jogos que utilizei,
+Para que outros usuários saibam quais são os mais bem avaliados.
+
+*9-* Como um usuário,
+Quero buscar jogos por nome, código ou ID,
+Para que eu encontre mais rapidamente o que estou procurando.
+
+*10-* Como um usuário,
+Quero visualizar sugestões com base no meu histórico,
+Para que eu descubra novos jogos do meu interesse.
+
+*11-* Como um administrador,
+Quero ter permissão para cancelar reservas de outros usuários,
+Para que eu possa gerenciar conflitos ou indisponibilidades.
+
+*12-* Como um universitário envolvido no projeto,
+Quero ser responsável pela administração do sistema,
+Para que eu possa contribuir com a manutenção do projeto Lúdico.
+
+*13-* Como um usuário,
+Quero acessar o sistema de qualquer página,
+Para que a navegação seja rápida e prática.
+
+*14-* Como um estudante,
+Quero um sistema intuitivo,
+Para que eu possa usá-lo facilmente sem ajuda.
+
+*15-* Como um desenvolvedor,
+Quero que o backend seja em Java com Spring Boot e o frontend em Angular,
+Para que o sistema seja moderno, robusto e escalável.
+
+*16-* Como um usuário,
+Quero que o sistema responda rapidamente e esteja disponível a maior parte do tempo,
+Para que minha experiência seja confiável.
+
+*17-* Como um administrador,
+Quero que os dados dos usuários sejam armazenados com segurança e de acordo com a LGPD,
+Para que a privacidade seja respeitada.
+
+*18-* Como um administrador,
+Quero visualizar logs de acesso e ações,
+Para que eu possa auditar atividades no sistema.
 
 ***2.6. Diagramas de Caso de Uso e Especificações***
 
