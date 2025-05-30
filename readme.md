@@ -179,7 +179,7 @@ Com o uso do LudCon, os encontros se tornam mais organizados, os conflitos de ho
 
 ***2.4. Entrevista***
 
-*<Arquivo com as respostas do indivíduo entrevistado e link do drive com upload da gravação.>*
+https://drive.google.com/file/d/16iVjAabSYFPvGYE_7LZFbWzFgqTazPct/view?usp=sharing
 
 ***2.5. Histórias do Usuário***
 
