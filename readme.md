@@ -260,8 +260,8 @@ Para que eu possa auditar atividades no sistema.
 *<Imagem, arquivo (PDF), link com Diagrama de Caso de Uso.>*
 
 ***2.7. Diagramas de Atividades***
+![diagrama de atv](https://github.com/user-attachments/assets/c06f1972-3bfe-44dd-8db8-5a1a890b1473)
 
-*<Imagem, arquivo (PDF), link com Diagrama de Atividades.>*
 
 ***2.8. Matrizes de Rastreabilidade***
 
