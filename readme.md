@@ -1,282 +1,207 @@
 
+![Capa - LudCon](Img/Capa)
+
 # Projeto Disciplina: Requisitos de Software
 
-Olá! Este repositório faz parte do projeto da disciplina de Requisitos de Software da UTFPR - Campus Cornélio Procópio. 
+Olá! Este repositório faz parte do projeto da disciplina de Requisitos de Software da UTFPR - Campus Cornélio Procópio 
 
-Link do Padlet: https://padlet.com/josesamuel4/requisitos-ak7sijmoxmn7q0cj
+## 1 Introdução
 
-## 1. Introdução
+### 1.1  Nome do Grupo
 
-***1.1.  Nome do Grupo***
+*LudoTech Solutions* O Grupo é composto por:
 
-LudCon
 - José Samuel;
 - Ana Moreira;
 - Alexandre de Lucas;
 - Douglas Nascimento; e
 - Matheus Oliveira.
 
-***1.2.  Nome do Sistema***
+### 1.2  Nome do Sistema
 
-**LudCon**
+O Nome do Sistema é **LudCon**
 
-***1.3.  Propósito do Sistema***
+### 1.3  Propósito do Sistema
 
-Este documento apresenta os requisitos dos usuários a serem desenvolvidos pela *`Tiger's Digital`*, fornecendo aos desenvolvedores as informações necessárias para o projeto e implementação, assim como para a realização dos testes e homologação do sistema.'
+Este documento apresenta os requisitos dos usuários a serem desenvolvidos pela *LudoTech Solutions*, fornecendo aos desenvolvedores as informações necessárias para o projeto e implementação, assim como para a realização dos testes e homologação do sistema.
 
-O objetivo do sistema `LudCon` é *através de um sistema de controle, permitir ao projeto de extensão Lúdico, o controle de jogos e sessões*
+O objetivo do sistema *LudCon* é através de um sistema de controle, permitir ao projeto de extensão Lúdico, o controle de jogos e sessões
 
-***1.4.  Público Alvo***
+### 1.4  Público Alvo
 
-O público alvo do software são membros e/ou usuários do Lúdico portanto jovens, adultos, idosos, crianças podem estar inclusos em questão de faixa etária.
+O público-alvo do software LudCon são os membros da comunidade acadêmica da UTFPR, principalmente os alunos, e demais usuários vinculados ao projeto de extensão Lúdico Em termos de faixa etária, o sistema abrange as diversas faixas etárias, mas como foco no público jovem.
 
-***1.5. Descrição dos usuários***
+### 1.5 Descrição dos usuários
 
-Utilizadores: São os usuários que usam o software tanto para vizualizar e reservar hórario para se entreter e após o uso podem avaliar o jogo.
+#### 1.5.1 Administrador:
 
-Administradores: São os usuários que configuram e organizam as funções que o software disponibiliza para os utilizadores.
+- Descrição: Perfil destinado aos membros da equipe organizadora do projeto Lúdico, responsáveis pela gestão da plataforma.
+- Capacidades: Gerencia o catálogo de jogos (cadastrar, editar, remover), administra os usuários e tem permissão para visualizar relatórios de uso e cancelar qualquer reserva, se necessário.
 
-***Personas:***
+#### 1.5.2 Utilizador:
+
+- Descrição: Perfil padrão para qualquer participante da comunidade acadêmica que deseja utilizar os jogos do acervo.
+- Capacidades: Realiza cadastro e login, busca jogos no catálogo, efetua e gerencia suas próprias reservas, e avalia os jogos que utilizou.
+
+#### 1.5.3 Personas
 
 [Acesse aqui - Personas de Usuário](Docs/PersonasdeUsuario.pdf)
 
-#### Situação Atual – Antes da Solução
+#### 1.5.4 - Cenário Atual (Pré-Sistema)
+O processo de gerenciamento de jogos e reservas é predominantemente manual, resultando em ineficiências e dificuldades para organizadores e participantes.
 
-**O que as pessoas fazem?**  
-- Júlia (monitora) organiza manualmente a lista de jogos disponíveis e os horários das sessões, geralmente em planilhas e mensagens no WhatsApp.  
-- Pedro (usuário) entra em contato por mensagens para perguntar sobre a disponibilidade e tenta reservar verbalmente ou via grupo de WhatsApp.
+- Processo Manual:
+  - A organização dos jogos e horários é feita em planilhas e grupos de WhatsApp.
+  - As reservas são solicitadas e confirmadas informalmente por troca de mensagens.
+  - Ferramentas Utilizadas:
+  - Planilhas (Excel/Google Sheets).
+  - Grupos de WhatsApp.
+  - Listas impressas e anotações em papel.
 
-**Quais os artefatos envolvidos?**  
-- Planilhas em Excel/Google Sheets  
-- Grupos de WhatsApp  
-- Impressões de listas de jogos  
-- Anotações manuais em papel  
+- Principais Dificuldades:
 
-**O que elas precisam saber?**  
-- Quais jogos estão disponíveis e em quais horários  
-- Quem já reservou cada jogo  
-- Se há conflitos de horário  
-- Como registrar avaliações ou frequência dos participantes
+  - Falta de uma fonte de informação centralizada e em tempo real sobre a disponibilidade dos jogos.
+  - Alto risco de conflitos de agendamento e falhas de comunicação.
+  - Inexistência de um método prático para registrar a frequência de uso ou as avaliações dos jogos.
+  - Ilustração do Cenário Atual:
 
----
+**Cenário (Pré-Sistema):** Júlia, monitora do projeto, controla o acervo de jogos através de uma planilha e de um grupo no WhatsApp Pedro, um estudante, envia uma mensagem para reservar o jogo Codenames Como Júlia está sem acesso à planilha no momento, ela não consegue confirmar a disponibilidade Confiando que estaria livre, Pedro vai até o local, mas descobre que outro grupo já havia reservado o jogo informalmente A situação gera frustração para ambos e sobrecarga de trabalho para Júlia, que precisa resolver o conflito na hora.
 
-#### Situação com a Solução – Depois da Implementação do LudCon
+#### 1.5.5 - Cenário Proposto (Pós-Sistema)
 
-**O que as pessoas fazem?**  
-- Júlia acessa o sistema LudCon via navegador, faz login como administradora e cadastra ou atualiza os jogos disponíveis. Ela gerencia permissões e visualiza reservas em tempo real.  
-- Pedro acessa o sistema pelo celular, consulta os jogos disponíveis, faz uma reserva e recebe uma confirmação. Após jogar, ele avalia o jogo diretamente pela plataforma.
 
-**Quais os artefatos envolvidos?**  
-- Plataforma web responsiva (LudCon)  
-- Banco de dados centralizado com registros de usuários, jogos, reservas e avaliações  
-- Sistema de permissões por perfil  
+- Processo Automatizado com o LudCon:
 
-**O que elas precisam saber?**  
-- Como navegar pelo sistema  
-- Como filtrar, cadastrar e editar jogos  
-- Como realizar uma reserva e verificar status  
-- Como acessar e interpretar relatórios (no caso da Júlia)
+  - O administrador gerencia o catálogo de jogos e acompanha as reservas em um painel centralizado.
+  - O usuário consulta a disponibilidade, realiza a reserva e avalia os jogos de forma autônoma pela plataforma.
 
----
+- Componentes da Solução:
+  
+  - Plataforma web responsiva.
+  - Banco de dados centralizado.
+  - Sistema de permissões por perfil de usuário.
+  - Benefícios e Novas Capacidades:
+  - Navegação intuitiva para consulta, reserva e avaliação de jogos.
+  - Autonomia e confiança para o usuário, com confirmações automáticas e visão clara dos horários.
+  - Geração de dados estruturados (histórico de uso, avaliações) para apoiar a tomada de decisão dos administradores.
+  - Ilustração do Cenário Proposto:
 
-#### Cenário: Antes
-
-Júlia é uma estudante engajada no projeto de extensão Lúdico e responsável por ajudar na organização das sessões de jogos. Ela utiliza planilhas no Google Drive e grupos de WhatsApp para controlar os jogos disponíveis e os horários de uso. Toda semana, Júlia precisa atualizar manualmente a planilha e responder mensagens dos colegas interessados em participar dos encontros.
-
-Pedro, um estudante do 3º período de Engenharia da Computação, quer participar das atividades e pergunta no grupo se o jogo *Codenames* estará disponível na quinta-feira à tarde. Júlia confere a planilha, mas como não está com o notebook no momento, responde de forma genérica. Pedro então supõe que o jogo estará disponível e comparece no horário desejado, mas descobre que outro grupo já havia reservado informalmente o mesmo jogo.
-
-A situação gera frustração. Júlia precisa reorganizar os horários em tempo real e lidar com vários pedidos simultâneos. Pedro se sente desmotivado por não conseguir jogar. Ao final do dia, Júlia atualiza a planilha com o que aconteceu, mas sem registros claros das reservas e sem avaliações dos jogos.
-
----
-
-#### Cenário: Depois
-
-Júlia é uma monitora ativa do projeto Lúdico e agora utiliza o sistema LudCon para organizar os jogos e horários das sessões. Ao acessar a plataforma pelo navegador, ela realiza login como administradora, cadastra os novos jogos recebidos e atualiza os horários disponíveis na agenda integrada.
-
-Pedro acessa o sistema LudCon pelo celular e, ao navegar pela interface intuitiva, encontra uma lista com todos os jogos cadastrados. Ele utiliza o filtro por nome e localiza o *Codenames*. Ao verificar a disponibilidade, Pedro vê que o horário de quinta-feira às 16h está livre e faz sua reserva com um clique. Ele recebe uma notificação de confirmação imediatamente.
-
-Durante o encontro, Pedro utiliza o jogo e, ao final, avalia sua experiência diretamente pelo sistema. Júlia acompanha todas as reservas e avaliações em tempo real pela interface administrativa. Ao final da semana, ela exporta um relatório com o histórico de uso e as avaliações dos jogos, o que facilita o planejamento de futuras sessões.
-
-Com o uso do LudCon, os encontros se tornam mais organizados, os conflitos de horários são evitados automaticamente e tanto os participantes quanto os monitores têm mais controle e confiança sobre o funcionamento do projeto.
+**Cenário (Pós-Sistema):** Agora, Júlia utiliza o painel administrativo do LudCon para manter o catálogo de jogos sempre atualizado Pedro acessa o sistema pelo seu celular, busca por Codenames, verifica os horários livres e reserva o jogo com um clique, recebendo uma confirmação instantânea Após a sessão, ele acessa a plataforma novamente para deixar sua avaliação O processo ocorre sem atritos, os conflitos são eliminados e Júlia pode, ao final da semana, exportar um relatório de uso para planejar as próximas atividades do projeto.
 
 ---
 
 
-## 2. Documentos gerais no repositório
+## 2 Documentos gerais no repositório
 
-***2.1. Requisitos Funcionais***
+### 2.1 Requisitos Funcionais
 
 | Identificador | Descrição | Prioridade | Depende de |
 | --- | --- | --- | --- |
-| RF01 | O software deve permitir que o usuário faça cadastro e login no sistema. | M |  
-| RF02 | O sistema deve permitir o cadastro de jogos. | M | RF01, RF10 |
-| RF03 | O Software deve permitir ao usuário uma tela de visualização de jogos. | C | RF01, RF10, RF02 |
-| RF04 | O software deve permitir ao usuário fazer uma reserva do jogo que deseja utilizar. | M | RF01, RF10, RF02, RF03 |
-| RF05 | O sistema deve permitir ao usuário editar ou cancelar suas reservas de jogos. | M | RF01, RF10, RF02, RF03, RF04 |
-| RF06 | O sistema deve permitir ao usuário avaliar os jogos utilizados. | S | RF01, RF10, RF02, RF03, RF04 |
-| RF07 | O sistema deve permitir ao usuário não conflitar com outros horários marcados. | M | RF01, RF10, RF02, RF03, RF04, RF05 |
-| RF08 | O sistema deve permitir ao usuário buscar jogos por meio de filtros (nomes, códigos, id). | S | RF01, RF10, RF02, RF03, RF04, RF06 |
-| RF09 | O sistema deve permitir ao usuário visualizar suas preferências com base no histórico de jogos utilizados. | S | RF01, RF10, RF02, RF03, RF04, RF05, RF06, RF07 |
-| RF10 | O sistema deve permitir a categorização de 2 opções, usuário (Para quem deseja utilizar o software para reservar um jogo), e usuário administrador (Para os membros do lúdico poderem manipular o que quiserem). | M | RF01 |
+| RF01 | O sistema deve permitir que um usuário se cadastre (com nome, e-mail, senha) e realize autenticação (login) | C |  
+| RF02 | O sistema deve permitir que um Administrador cadastre jogos, informando no mínimo: nome, descrição e categoria | M | RF01 - RF10 |
+| RF03 | O sistema deve apresentar aos usuários autenticados um catálogo para visualização dos jogos disponíveis | C | RF01 |
+| RF04 | O sistema deve permitir que um Utilizador autenticado reserve um jogo para um dia e horário específicos | M | RF03 |
+| RF05 | O sistema deve permitir que um Utilizador visualize e cancele suas próprias reservas futuras | M | RF04 |
+| RF06 | O sistema deve permitir que um Utilizador avalie (com nota e/ou comentário) um jogo que ele já utilizou | S | RF04 |
+| RF07 | O sistema deve impedir que uma reserva seja confirmada se o horário para o jogo selecionado já estiver ocupado | M | RF04 |
+| RF08 | O sistema deve fornecer uma função de busca que permita filtrar o catálogo de jogos, no mínimo, por nome | S | RF03 |
+| RF09 | O sistema deve exibir para o Utilizador uma seção de sugestões baseada nas categorias de jogos já reservados | S | RF04 - RF06 |
+| RF10 | O sistema deve implementar um controle de acesso baseado em dois perfis: Administrador e Utilizador | C | RF01 |
 
-***2.2. Requisitos Não Funcionais***
+### 2.2 Requisitos Não Funcionais
+
 | Identificador | Descrição | Prioridade | Depende de |
 | --- | --- | --- | --- |
-| RNF01 | O usuario deve ser capaz de acessar a homepage de qualquer outra parte. | S | RF01 |
-| RNF02 | Deve ser intuitivo o suficiente para que qualquer estudante possa utilizá-lo sem necessidade de treinamento formal. | M | RF01, RF02, RF03, RF04 |
-| RNF03 | O sistema deve responder às requisições do usuário em até 2 segundos para ações básicas (como login, reserva de jogos, avaliação). | M | RF01, RF04, RF06 |
-| RNF04 | Deve suportar pelo menos 80 usuários simultâneos sem degradação significativa da performance. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
-| RNF06 | O sistema deve estar disponível 98% do tempo durante os horários de funcionamento do projeto Lúdico. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
-| RNF07 | O sistema deve ser capaz de realizar backup de dados a cada 12 horas para evitar perda de dados. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
-| RNF09 | sistema deve ser acessível por navegadores modernos (Chrome, Firefox, Edge) e dispositivos móveis (responsivo). | M | RF01 |
-| RNF10 | Deve funcionar tanto em sistemas operacionais Windows quanto Android/iOS. | M | RF01 |
-| RNF11 | O sistema LudCon deve seguir as diretrizes de tecnologia da informação e extensão da universidade, respeitando normas de segurança, acessibilidade e uso de software institucional.  | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
-| RNF12 | A administração do sistema será responsabilidade dos universitários envolvidos no projeto Lúdico, sob supervisão de um professor ou coordenador, garantindo que a manutenção e operação estejam alinhadas com os objetivos acadêmicos do projeto. | C | RF10 |
-| RNF13 | O sistema deverá utilizará Java para o backend, utilizando Spring boot. No frontend será utilizado TypeScript com Angular. No banco de dados, PostgreSQL. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
-| RNF14 | O sistema deve ser produzido utilizando a metódologia SCRUM. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
-| RNF15 | O acesso ao sistema deve ser controlado por autenticação de usuário (login e senha). | M | RF01 |
-| RNF16 | Os dados pessoais dos usuários e administradores devem ser armazenados de forma segura, respeitando a LGPD. | M | RF01, RF10, RF05 |
-| RNF17 | O sistema deve registrar logs de acesso e ações administrativas para auditoria. | M | RF01, RF10 |
-| RNF18 | O sistema deve ser modular, facilitando alterações e atualizações futuras.  | S | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
-| RNF19 | O código deve seguir boas práticas de desenvolvimento, com documentação básica e padronização. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 
-| RNF20 | O Sistema precisa dar autonomia para os administradores cancelar as reservas. | W | RNF13
+| RNF01 | O sistema deve garantir que a página inicial (homepage) seja acessível a partir de qualquer outra tela, por meio de um link ou botão claramente identificável. | S | RF01 |
+| RNF02 | A interface do sistema deve ser suficientemente intuitiva para que um novo usuário consiga realizar as operações básicas (busca, reserva, avaliação) sem necessidade de treinamento formal. | M | RF01, RF02, RF03, RF04 |
+| RNF03 | O tempo de resposta para ações interativas críticas (ex: login, busca, confirmação de reserva) não deve exceder 2 segundos em condições normais de rede. | M | RF01, RF04, RF06 |
+| RNF04 | O sistema deve suportar um mínimo de 80 sessões de usuário simultâneas sem apresentar degradação de performance perceptível pelo usuário. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
+| RNF05 | O sistema deverá oferecer integração com o Google Agenda, permitindo que o usuário adicione automaticamente a reserva ao seu calendário pessoal após a confirmação. | W | RF04 |
+| RNF06 | O sistema deve manter uma disponibilidade (uptime) de, no mínimo, 98% durante os horários de funcionamento estabelecidos pelo projeto Lúdico. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
+| RNF07 | Para garantir a recuperabilidade em caso de falha, o sistema deve realizar backups automáticos do banco de dados em intervalos não superiores a 12 horas. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
+| RNF09 | O sistema deve ser compatível com as versões mais recentes dos navegadores web modernos (Google Chrome, Mozilla Firefox, Microsoft Edge) e possuir um design responsivo. | M | RF01 |
+| RNF10 | Sendo uma aplicação web, o sistema deve funcionar corretamente nos navegadores suportados (RNF09), independentemente do sistema operacional do cliente (Windows, macOS, Linux, Android, iOS). | M | RF01 |
+| RNF11 | O sistema deve estar em conformidade com as políticas e diretrizes de TI e de projetos de extensão da UTFPR, incluindo normas de segurança e acessibilidade. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
+| RNF12 | O sistema deve ser projetado para que sua administração e manutenção possam ser realizadas pelos próprios membros do projeto de extensão, sem exigir conhecimento técnico aprofundado. | C | RF10 |
+| RNF13 | A implementação do sistema está restrita à seguinte pilha tecnológica: Backend em Java com Spring Boot, Frontend em TypeScript com Angular e Banco de Dados PostgreSQL. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
+| RNF14 | O processo de desenvolvimento do projeto deverá seguir a metodologia ágil Scrum. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
+| RNF15 | Todo acesso a funcionalidades restritas do sistema deve ser precedido por um processo de autenticação de usuário (login e senha) bem-sucedido. | M | RF01 |
+| RNF16 | O sistema deve garantir a segurança e a privacidade dos dados pessoais dos usuários, em conformidade com os princípios da Lei Geral de Proteção de Dados (LGPD). | M | RF01, RF10, RF05 |
+| RNF17 | Devem ser gerados e armazenados logs de auditoria para eventos críticos, como tentativas de login (sucesso e falha), alterações de dados e outras ações administrativas. | M | RF01, RF10 |
+| RNF18 | A arquitetura do software deve ser modular, desacoplando as principais funcionalidades (ex: gestão de usuários, jogos, reservas) para facilitar a manutenção e futuras evoluções. | S | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
+| RNF19 | O código-fonte deve aderir a um guia de estilo e boas práticas de desenvolvimento consistentes, incluindo a documentação de componentes complexos. | M | RF01, RF02, RF03, RF04, RF05, RF06, RF07, RF08, RF09, RF10 |
 
-***2.3. Perguntas***
+### 2.3 Perguntas*
 
-**Sobre o funcionamento atual**
-- Como vocês controlam os jogos disponíveis e os horários de uso?
-- Há alguma ferramenta ou método que utilizam para esse controle?
-- Quem é responsável por manter essas informações atualizadas?
+- **Sobre o funcionamento atual**
+  - Como vocês controlam os jogos disponíveis e os horários de uso?
+  - Há alguma ferramenta ou método que utilizam para esse controle?
+  - Quem é responsável por manter essas informações atualizadas?
 
-**Dificuldades enfrentadas**
-- Quais são os principais problemas na organização dos encontros?
-- Já houve conflitos de horário ou uso de jogos? Como foram resolvidos?
-- É difícil saber quem participou das sessões?
+- **Dificuldades enfrentadas**
+  - Quais são os principais problemas na organização dos encontros?
+  - Já houve conflitos de horário ou uso de jogos? Como foram resolvidos?
+  - É difícil saber quem participou das sessões?
 
-**Perfis e permissões**
-- Quais tipos de usuários participam do projeto?
-- Que ações diferentes cada perfil deveria ter no sistema?
-- Quem pode autorizar, cancelar ou bloquear reservas?
+- **Perfis e permissões**
+  - Quais tipos de usuários participam do projeto?
+  - Que ações diferentes cada perfil deveria ter no sistema?
+  - Quem pode autorizar, cancelar ou bloquear reservas?
 
-**Reservas e agendamentos**
-- É importante poder agendar jogos com antecedência?
-- Preferem horários fixos ou flexíveis para as reservas?
-- Os usuários devem poder editar suas próprias reservas?
+- **Reservas e agendamentos**
+  - É importante poder agendar jogos com antecedência?
+  - Preferem horários fixos ou flexíveis para as reservas?
+  - Os usuários devem poder editar suas próprias reservas?
 
-**Informações e relatórios**
-- Que dados vocês gostariam de acompanhar no sistema?
-- Devem ser registradas a frequência de uso e participação?
-- Relatórios são úteis para o planejamento? Quais?
+- **Informações e relatórios**
+  - Que dados vocês gostariam de acompanhar no sistema?
+  - Devem ser registradas a frequência de uso e participação?
+  - Relatórios são úteis para o planejamento? Quais?
 
-**Funcionalidades desejadas**
-- Que funcionalidades seriam mais úteis para o sistema?
-- O que não pode faltar de jeito nenhum?
-- Avaliações de jogos pelos usuários seriam úteis?
+- **Funcionalidades desejadas**
+  - Que funcionalidades seriam mais úteis para o sistema?
+  - O que não pode faltar de jeito nenhum?
+  - Avaliações de jogos pelos usuários seriam úteis?
 
-**Considerações finais**
-- Existe alguma regra ou limitação que o sistema precisa seguir?
-- Algo mais que gostariam de incluir?
+- **Considerações finais**
+  - Existe alguma regra ou limitação que o sistema precisa seguir?
+  - Algo mais que gostariam de incluir?
 
-***2.4. Entrevista***
+***2.4 Entrevista***
 
 https://drive.google.com/file/d/16iVjAabSYFPvGYE_7LZFbWzFgqTazPct/view?usp=sharing
 
-***2.5. Histórias do Usuário***
+***2.5 Histórias do Usuário***
 
-*1-* Como um usuário,
-Quero me cadastrar e fazer login no sistema,
-Para que eu possa acessar as funcionalidades de reserva de jogos.
+01. Como um novo participante, quero me cadastrar no sistema usando meu nome, e-mail e uma senha, para que eu possa criar um perfil e acessar a plataforma.
+02. Como um participante, quero visualizar um catálogo com todos os jogos disponíveis, exibindo seus nomes e imagens, para que eu possa explorar as opções e escolher qual quero jogar.
+03. Como um participante, quero usar uma barra de busca para encontrar um jogo específico pelo nome, para que eu possa localizar rapidamente o item que desejo.
+04. Como um participante, quero selecionar um jogo e escolher um dia e horário disponíveis em um calendário, para que eu possa garantir o uso do jogo sem conflitos.
+05. Como um participante, quero acessar uma área de "Minhas Reservas" para visualizar e poder cancelar agendamentos futuros, para que eu tenha controle e possa liberar o horário caso meus planos mudem.
+06. Como um participante, quero avaliar um jogo que já utilizei, atribuindo uma nota de 1 a 5 estrelas e um comentário opcional, para que eu possa compartilhar minha opinião e ajudar outros usuários a escolherem.
+07. Como um participante, quero ver uma seção de "Recomendados" na página inicial, baseada nos tipos de jogos que já reservei, para que eu possa descobrir novos jogos que se alinhem ao meu gosto.
+08. Como um administrador, quero ter um painel para gerenciar todo o ciclo de vida dos jogos, para que eu possa manter o catálogo do projeto sempre atualizado.
+09. Como um administrador, quero adicionar um novo jogo ao sistema, informando seu nome, descrição e categoria, para que ele fique disponível para reserva pelos participantes.
+10. Como um administrador, quero ter a permissão de cancelar qualquer reserva existente no sistema, para que eu possa resolver conflitos de horário ou gerenciar a indisponibilidade de um jogo.
+11. Como um usuário, quero ter um menu de navegação sempre visível e claro, para que eu possa me locomover entre as seções principais de forma rápida e prática.
+12. Como um novo usuário, quero conseguir entender como fazer uma reserva sem precisar de um manual ou tutorial, para que minha primeira experiência com o sistema seja positiva.
+13. Como um usuário, quero que as páginas carreguem em poucos segundos e que as ações aconteçam de forma instantânea, para que eu não perca tempo e sinta que o sistema é eficiente.
+14. Como um usuário, quero ter a certeza de que meus dados pessoais estão seguros e são tratados conforme a LGPD, para que eu possa confiar na plataforma e usá-la com tranquilidade.
+15. Como um administrador, quero que o sistema registre quem realizou as ações administrativas importantes (logs), para que seja possível rastrear e auditar eventos em caso de algum problema.
 
-*2-* Como um administrador,
-Quero ter acesso privilegiado no sistema,
-Para que eu possa gerenciar jogos e reservas conforme necessário.
-
-*3-* Como um administrador,
-Quero cadastrar novos jogos no sistema,
-Para que eles fiquem disponíveis para os usuários reservarem.
-
-*4-* Como um usuário,
-Quero visualizar uma lista de jogos,
-Para que eu possa escolher qual desejo reservar.
-
-*5-* Como um usuário,
-Quero reservar o jogo que desejo,
-Para que eu possa utilizá-lo em um horário específico.
-
-*6-* Como um usuário,
-Quero editar ou cancelar minhas reservas,
-Para que eu possa ajustar minha agenda conforme necessário.
-
-*7-* Como um usuário,
-Quero ser alertado se houver conflito de horário ao tentar reservar,
-Para que eu não tenha problemas com reservas duplicadas.
-
-*8-* Como um usuário,
-Quero avaliar os jogos que utilizei,
-Para que outros usuários saibam quais são os mais bem avaliados.
-
-*9-* Como um usuário,
-Quero buscar jogos por nome, código ou ID,
-Para que eu encontre mais rapidamente o que estou procurando.
-
-*10-* Como um usuário,
-Quero visualizar sugestões com base no meu histórico,
-Para que eu descubra novos jogos do meu interesse.
-
-*11-* Como um administrador,
-Quero ter permissão para cancelar reservas de outros usuários,
-Para que eu possa gerenciar conflitos ou indisponibilidades.
-
-*12-* Como um universitário envolvido no projeto,
-Quero ser responsável pela administração do sistema,
-Para que eu possa contribuir com a manutenção do projeto Lúdico.
-
-*13-* Como um usuário,
-Quero acessar o sistema de qualquer página,
-Para que a navegação seja rápida e prática.
-
-*14-* Como um estudante,
-Quero um sistema intuitivo,
-Para que eu possa usá-lo facilmente sem ajuda.
-
-*15-* Como um desenvolvedor,
-Quero que o backend seja em Java com Spring Boot e o frontend em Angular,
-Para que o sistema seja moderno, robusto e escalável.
-
-*16-* Como um usuário,
-Quero que o sistema responda rapidamente e esteja disponível a maior parte do tempo,
-Para que minha experiência seja confiável.
-
-*17-* Como um administrador,
-Quero que os dados dos usuários sejam armazenados com segurança e de acordo com a LGPD,
-Para que a privacidade seja respeitada.
-
-*18-* Como um administrador,
-Quero visualizar logs de acesso e ações,
-Para que eu possa auditar atividades no sistema.
-
-***2.6. Diagramas de Caso de Uso e Especificações***
+***2.6 Diagramas de Caso de Uso e Especificações***
 
 *<Imagem, arquivo (PDF), link com Diagrama de Caso de Uso.>*
 
-***2.7. Diagramas de Atividades***
+***2.7 Diagramas de Atividades***
 
+[Acesse aqui - Diagrama de Atividades](https://github.com/user-attachments/assets/58849a7a-db5a-453c-a735-48f744c754b2)
 
-![diagrama de atv](https://github.com/user-attachments/assets/58849a7a-db5a-453c-a735-48f744c754b2)
-
-
-
-
-***2.8. Matrizes de Rastreabilidade***
+***2.8 Matrizes de Rastreabilidade***
 
 *<Imagem, arquivo (PDF), link com Matriz de Rastreabilidade.>*
 
-***2.9. Protótipos***
+***2.9 Protótipos***
 
 *<Imagem, arquivo (PDF), link com Protótipo.>*
 
-## Referências
-
-*<Esta seção é destinada à descrição das referências utilizadas pelo documento, como por exemplo, URLs e livros. Ver exemplo a seguir:>*
-
-[1] “Glossário da _USina_”, <_id_doc glossário_>, Versão <_versão_>. Localização: <_localização_>.
