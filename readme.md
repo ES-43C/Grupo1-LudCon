@@ -1,5 +1,5 @@
 
-![Capa - LudCon](Img/Capa)
+![Capa - LudCon](Img/Capa.png)
 
 # Projeto Disciplina: Requisitos de Software
 
