@@ -200,7 +200,7 @@ O processo de gerenciamento de jogos e reservas é predominantemente manual, res
 
 ### 2.8 Diagrama de Classes 
 
-> 🔗[Acesse aqui](Docs/Classes) | Diagrama de Classes
+> 🔗[Acesse aqui](Docs/Classes.jpg) | Diagrama de Classes
 
 ### 2.9 Matrizes de Rastreabilidade
 
