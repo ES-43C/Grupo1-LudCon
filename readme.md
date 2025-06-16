@@ -170,7 +170,7 @@ O processo de gerenciamento de jogos e reservas é predominantemente manual, res
 
 > 🔗[Acesse aqui](https://drive.google.com/file/d/16iVjAabSYFPvGYE_7LZFbWzFgqTazPct/view?usp=sharing) | Vídeo da Entrevista
 
-> 🔗[Acesse aqui](Docs/Transcicao) | Transcrição da Entrevista
+> 🔗[Acesse aqui](Docs/Transcicao.pdf) | Transcrição da Entrevista
 
 ### 2.5 Histórias do Usuário
 
