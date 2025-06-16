@@ -45,7 +45,7 @@ O público-alvo do software LudCon são os membros da comunidade acadêmica da U
 
 #### 1.5.3 Personas
 
-[Acesse aqui - Personas de Usuário](Docs/PersonasdeUsuario.pdf)
+> 🔗 [Acesse aqui](Docs/PersonasdeUsuario.pdf) | Personas de Usuário
 
 #### 1.5.4 - Cenário Atual (Pré-Sistema)
 O processo de gerenciamento de jogos e reservas é predominantemente manual, resultando em ineficiências e dificuldades para organizadores e participantes.
@@ -68,7 +68,6 @@ O processo de gerenciamento de jogos e reservas é predominantemente manual, res
 **Cenário (Pré-Sistema):** Júlia, monitora do projeto, controla o acervo de jogos através de uma planilha e de um grupo no WhatsApp Pedro, um estudante, envia uma mensagem para reservar o jogo Codenames Como Júlia está sem acesso à planilha no momento, ela não consegue confirmar a disponibilidade Confiando que estaria livre, Pedro vai até o local, mas descobre que outro grupo já havia reservado o jogo informalmente A situação gera frustração para ambos e sobrecarga de trabalho para Júlia, que precisa resolver o conflito na hora.
 
 #### 1.5.5 - Cenário Proposto (Pós-Sistema)
-
 
 - Processo Automatizado com o LudCon:
 
@@ -167,11 +166,13 @@ O processo de gerenciamento de jogos e reservas é predominantemente manual, res
   - Existe alguma regra ou limitação que o sistema precisa seguir?
   - Algo mais que gostariam de incluir?
 
-***2.4 Entrevista***
+### 2.4 Entrevista
 
-https://drive.google.com/file/d/16iVjAabSYFPvGYE_7LZFbWzFgqTazPct/view?usp=sharing
+> 🔗[Acesse aqui](https://drive.google.com/file/d/16iVjAabSYFPvGYE_7LZFbWzFgqTazPct/view?usp=sharing) | Vídeo da Entrevista
 
-***2.5 Histórias do Usuário***
+> 🔗[Acesse aqui](Docs/Transcicao) | Transcrição da Entrevista
+
+### 2.5 Histórias do Usuário
 
 01. Como um novo participante, quero me cadastrar no sistema usando meu nome, e-mail e uma senha, para que eu possa criar um perfil e acessar a plataforma.
 02. Como um participante, quero visualizar um catálogo com todos os jogos disponíveis, exibindo seus nomes e imagens, para que eu possa explorar as opções e escolher qual quero jogar.
@@ -189,19 +190,51 @@ https://drive.google.com/file/d/16iVjAabSYFPvGYE_7LZFbWzFgqTazPct/view?usp=shari
 14. Como um usuário, quero ter a certeza de que meus dados pessoais estão seguros e são tratados conforme a LGPD, para que eu possa confiar na plataforma e usá-la com tranquilidade.
 15. Como um administrador, quero que o sistema registre quem realizou as ações administrativas importantes (logs), para que seja possível rastrear e auditar eventos em caso de algum problema.
 
-***2.6 Diagramas de Caso de Uso e Especificações***
+### 2.6 Diagramas de Caso de Uso e Especificações
 
-*<Imagem, arquivo (PDF), link com Diagrama de Caso de Uso.>*
+> 🔗[Acesse aqui](Docs/casoDeUso) | Diagrama de Caso de Uso
 
-***2.7 Diagramas de Atividades***
+### 2.7 Diagramas de Atividades
 
-[Acesse aqui - Diagrama de Atividades](https://github.com/user-attachments/assets/58849a7a-db5a-453c-a735-48f744c754b2)
+> 🔗[Acesse aqui](https://github.com/user-attachments/assets/58849a7a-db5a-453c-a735-48f744c754b2) | Diagrama de Atividades
 
-***2.8 Matrizes de Rastreabilidade***
+### 2.8 Diagrama de Classes 
 
-*<Imagem, arquivo (PDF), link com Matriz de Rastreabilidade.>*
+> 🔗[Acesse aqui](Docs/Classes) | Diagrama de Classes
 
-***2.9 Protótipos***
+### 2.9 Matrizes de Rastreabilidade
 
-*<Imagem, arquivo (PDF), link com Protótipo.>*
+- Matriz de Rastreabilidade: Requisitos Funcionais vs. Histórias de Usuário
 
+| Requisito Funcional                       | HU01 | HU02 | HU03 | HU04 | HU05 | HU06 | HU07 | HU08 | HU09 | HU10 |
+| :---------------------------------------- | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| RF01 - Cadastrar e autenticar usuário     |   X  |      |      |      |      |      |      |      |      |      |
+| RF02 - Cadastrar jogos (Admin)            |      |      |      |      |      |      |      |   X  |   X  |      |
+| RF03 - Apresentar catálogo de jogos       |      |   X  |      |      |      |      |      |      |      |      |
+| RF04 - Reservar jogo                      |      |      |      |   X  |      |      |      |      |      |      |
+| RF05 - Cancelar próprias reservas         |      |      |      |      |   X  |      |      |      |      |      |
+| RF06 - Avaliar jogo utilizado             |      |      |      |      |      |   X  |      |      |      |      |
+| RF07 - Impedir reserva em horário ocupado |      |      |      |   X  |      |      |      |      |      |      |
+| RF08 - Buscar jogo por nome               |      |      |   X  |      |      |      |      |      |      |      |
+| RF09 - Exibir sugestões de jogos          |      |      |      |      |      |      |   X  |      |      |      |
+| RF10 - Controle de acesso (Perfis)        |   X  |      |      |      |      |      |      |   X  |   X  |   X  |
+
+- Matriz de Rastreabilidade: Requisitos Não Funcionais vs. Histórias de Usuário
+
+| Requisito Não Funcional               | HU01 | HU02 | HU03 | HU04 | HU05 | HU06 | HU07 | HU08 | HU09 | HU10 | HU11 | HU12 | HU13 | HU14 | HU15 |
+| :------------------------------------ | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| RNF01 - Navegabilidade |      |      |      |      |      |      |      |      |      |      |   X  |      |      |      |      |
+| RNF02 - Usabilidade|      |   X  |      |   X  |      |   X  |      |      |      |      |   X  |   X  |      |      |      |
+| RNF03 - Desempenho |   X  |   X  |   X  |   X  |   X  |   X  |   X  |   X  |   X  |      |      |      |   X  |      |      |
+| RNF06 - Confiabilidade |   X  |   X  |   X  |   X  |   X  |   X  |   X  |   X  |   X  |   X  |   X  |   X  |   X  |   X  |   X  |
+| RNF07 - Recuperabilidade |   X  |      |      |   X  |   X  |   X  |      |   X  |   X  |   X  |      |      |      |      |      |
+| RNF09 - Compatibilidade |   X  |   X  |   X  |   X  |   X  |   X  |   X  |   X  |   X  |   X  |   X  |   X  |      |   X  |      |
+| RNF12 - Manutenibilidade |      |      |      |      |      |      |      |   X  |   X  |   X  |      |      |      |      |      |
+| RNF15 - Segurança |      |   X  |   X  |   X  |   X  |   X  |   X  |   X  |   X  |   X  |      |      |      |      |      |
+| RNF16 - Segurança |   X  |      |      |      |      |      |      |      |      |      |      |      |      |   X  |      |
+| RNF17 - Segurança |   X  |      |      |      |      |      |      |   X  |   X  |   X  |      |      |      |      |   X  |
+
+
+## 3 Protótipos
+
+> 🔗[Acesse aqui](Docs/Proto) | Descrição dos Protótipos
