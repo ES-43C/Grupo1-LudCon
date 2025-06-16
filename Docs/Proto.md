@@ -4,7 +4,7 @@
 
 ### 🟣 Cadastro
 
-![Cadastro](Prototipo/Cadastro.png)
+![Cadastro](../Prototipo/Cadastro.png)
 
 Tela para que novos participantes criem um perfil na plataforma LudCon.
 
@@ -25,7 +25,7 @@ Tela para que novos participantes criem um perfil na plataforma LudCon.
 
 ### 🟣 Login
 
-![Login](Prototipo/Login.png)
+![Login](../Prototipo/Login.png)
 
 Tela para que usuários existentes acessem suas contas na plataforma.
 
@@ -43,7 +43,7 @@ Tela para que usuários existentes acessem suas contas na plataforma.
 
 ### 🟣 Catálogo de Jogos
 
-![Catálogo](Prototipo/CatálogoJogos.png)
+![Catálogo](../Prototipo/CatálogoJogos.png)
 
 Tela principal que funciona como uma vitrine interativa do acervo de jogos.
 
@@ -66,7 +66,7 @@ Tela principal que funciona como uma vitrine interativa do acervo de jogos.
 
 ### 🟣Detalhes e Reserva de Jogo
 
-![RervarJogos](Prototipo/ReservarJogo.png)
+![RervarJogos](../Prototipo/ReservarJogo.png)
 
 Tela dedicada a um jogo específico, com suas informações e o fluxo para realizar uma reserva.
 
@@ -88,7 +88,7 @@ Tela dedicada a um jogo específico, com suas informações e o fluxo para reali
 
 ### 🟣 Minhas Reservas
 
-![Cadastro](Prototipo/MinhasReservas.png)
+![Cadastro](../Prototipo/MinhasReservas.png)
 
 Área pessoal onde o usuário pode gerenciar seus agendamentos.
 
@@ -106,7 +106,7 @@ Tela dedicada a um jogo específico, com suas informações e o fluxo para reali
 
 ### 🟣Avaliação de Jogo
 
-![Avaliação](Prototipo/AvaliaçãoJogo.png)
+![Avaliação](../Prototipo/AvaliaçãoJogo.png)
 
 Janela para o usuário dar feedback sobre um jogo que experimentou.
 
@@ -125,7 +125,7 @@ Janela para o usuário dar feedback sobre um jogo que experimentou.
 
 ### 🟣Painel do Administrador - Usuários
 
-![ControleUsuarios](Prototipo/ControleUsuarios.png)
+![ControleUsuarios](../Prototipo/ControleUsuarios.png)
 
 Tela da área administrativa para gestão de todos os perfis cadastrados na plataforma.
 
@@ -149,7 +149,7 @@ Tela da área administrativa para gestão de todos os perfis cadastrados na plat
 
 ### 🟣Painel do Administrador - Adicionar Jogo
 
-![AdicionarJogo](Prototipo/AdicionarJogo.png)
+![AdicionarJogo](../Prototipo/AdicionarJogo.png)
 
 Formulário para que administradores possam incluir novos jogos no catálogo.
 
@@ -167,7 +167,7 @@ Formulário para que administradores possam incluir novos jogos no catálogo.
 
 ### 🟣 Painel do Administrador - Editar Jogo
 
-![Editar](Prototipo/EditarJogo.png)
+![Editar](../Prototipo/EditarJogo.png)
 
 Interface para modificar as informações de um jogo que já existe no catálogo.
 
