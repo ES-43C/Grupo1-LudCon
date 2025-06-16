@@ -237,4 +237,4 @@ O processo de gerenciamento de jogos e reservas é predominantemente manual, res
 
 ## 3 Protótipos
 
-> 🔗[Acesse aqui](Docs/Proto) | Descrição dos Protótipos
+> 🔗[Acesse aqui](Docs/Proto.md) | Descrição dos Protótipos
