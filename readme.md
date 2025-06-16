@@ -192,7 +192,8 @@ O processo de gerenciamento de jogos e reservas é predominantemente manual, res
 
 ### 2.6 Diagramas de Caso de Uso e Especificações
 
-> 🔗[Acesse aqui](Docs/casoDeUso) | Diagrama de Caso de Uso
+> 🔗[Acesse aqui](Docs/diagrama_de_caso_de_uso) | Diagrama de Caso de Uso
+> 🔗[Acesse aqui](Docs/descricao_de_caso_de_uso) | Descrição de Caso de Uso
 
 ### 2.7 Diagramas de Atividades
 
